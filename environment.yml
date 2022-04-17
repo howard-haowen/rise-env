@@ -2,9 +2,9 @@ name: rise-environment
 channels:
   - conda-forge
 dependencies:
-  - python
+  - nbgitpuller
   - pandas
+  - pip
+  - python
   - rise
-  - pip:
-    - traitlets
-    - nbgitpuller
+  - traitlets
