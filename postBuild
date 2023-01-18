@@ -2,7 +2,6 @@
 
 set -ex
 
-sudoapt-add-repository ppa:fish-shell/release-3 
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install fish
+apt update && apt upgrade
+apt -y install fish
 sudo chsh -s /usr/local/bin/fish
