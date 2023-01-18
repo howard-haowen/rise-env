@@ -1,7 +1,3 @@
 #!/bin/bash
 
 set -ex
-
-sudo apt update && apt upgrade
-sudo apt -y install fish
-sudo chsh -s /usr/local/bin/fish
