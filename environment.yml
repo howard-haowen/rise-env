@@ -1,6 +1,8 @@
 name: rise-environment
 channels:
   - conda-forge
+  # for adding the fish shell
+  - mdraw
 dependencies:
   ### base packages
   #- python=3.7
@@ -15,12 +17,22 @@ dependencies:
   #- nteract_on_jupyter==2.1.3
   
   ### custom packages
+  - pandas
   # for pulling content from a content repo
   - nbgitpuller
-  - pandas
   # for presenting Notebook as real.js slides
   - rise
   # for configuring Rise
   - traitlets
   # for tracking and visualizing code execution
   - snoop
+  # for converting Jupyter Notebooks to plain texts
+  - jupytext
+  # for exploring and previewing files with vim-like bindings
+  - ranger-fm
+  # for modern VIM
+  - neovim
+  # for the friendly interactive shell, i.e., fish
+  - fish-shell
+  # for managing pip environments
+  #- pipenv
