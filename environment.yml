@@ -4,7 +4,7 @@ channels:
   # for adding the fish shell
   - mdraw
 dependencies:
-  ### base packages
+  ### default packages
   #- python=3.7
   #- nodejs=16
   #- pip
@@ -25,14 +25,17 @@ dependencies:
   # for configuring Rise
   - traitlets
   # for tracking and visualizing code execution
-  - snoop
+  # - snoop
   # for converting Jupyter Notebooks to plain texts
   - jupytext
   # for exploring and previewing files with vim-like bindings
-  - ranger-fm
+  # Option 1
+  # - ranger-fm
+  # Option 2
+  - vifm
   # for modern VIM
   - neovim
   # for the friendly interactive shell, i.e., fish
   - fish-shell
   # for managing pip environments
-  #- pipenv
+  - pipenv
