@@ -5,7 +5,9 @@ set -ex
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage --appimage-extract
-# configure neovim with AstroNvim settings 
+# configure neovim with default AstroNvim settings 
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+# configure neovim with my custom settings 
+git clone https://github.com/howard-haowen/astronvim_config ~/.config/nvim/lua/user
 # run the following to install neovim plugins after the image is built
 # ./squashfs-root/AppRun +PackerSync
