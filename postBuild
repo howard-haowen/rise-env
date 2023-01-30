@@ -1,3 +1,10 @@
 #!/bin/bash
 
 set -ex
+# download neovim appimage
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage --appimage-extract
+# configure neovim with AstroNvim settings 
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+./squashfs-root/AppRun +PackerSync
