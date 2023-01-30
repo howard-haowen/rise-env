@@ -30,8 +30,6 @@ dependencies:
   - jupytext
   # for exploring and previewing files with vim-like bindings
   - ranger-fm
-  # for modern VIM
-  - neovim
   # for the friendly interactive shell, i.e., fish
   - fish-shell
   # for managing pip environments
