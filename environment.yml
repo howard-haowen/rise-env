@@ -29,10 +29,7 @@ dependencies:
   # for converting Jupyter Notebooks to plain texts
   - jupytext
   # for exploring and previewing files with vim-like bindings
-  # Option 1
-  # - ranger-fm
-  # Option 2
-  - vifm
+  - ranger-fm
   # for modern VIM
   - neovim
   # for the friendly interactive shell, i.e., fish
