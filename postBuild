@@ -9,5 +9,7 @@ chmod u+x nvim.appimage
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 # configure neovim with my custom settings 
 git clone https://github.com/howard-haowen/astronvim_config ~/.config/nvim/lua/user
+# set an alias for the neovim binary
+alias nvim='./squashfs-root/AppRun'
 # run the following to install neovim plugins after the image is built
 # ./squashfs-root/AppRun +PackerSync
