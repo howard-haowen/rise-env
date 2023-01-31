@@ -17,6 +17,7 @@ dependencies:
   #- nteract_on_jupyter==2.1.3
   
   ### custom packages
+  # for wrangling tabular data
   - pandas
   # for pulling content from a content repo
   - nbgitpuller
@@ -34,3 +35,5 @@ dependencies:
   - fish-shell
   # for managing pip environments
   - pipenv
+  # for managing git repos in TUI 
+  - lazygit
