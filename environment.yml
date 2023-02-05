@@ -18,7 +18,7 @@ dependencies:
   
   ### custom packages
   # for wrangling tabular data
-  - pandas
+  # - pandas
   # for pulling content from a content repo
   - nbgitpuller
   # for presenting Notebook as real.js slides
@@ -28,7 +28,7 @@ dependencies:
   # for tracking and visualizing code execution
   # - snoop
   # for converting Jupyter Notebooks to plain texts
-  - jupytext
+  # - jupytext
   # for exploring and previewing files with vim-like bindings
   - ranger-fm
   # for the friendly interactive shell, i.e., fish
