@@ -22,7 +22,7 @@ dependencies:
   # for pulling content from a content repo
   - nbgitpuller
   # for presenting Notebook as real.js slides
-  - rise
+  # - rise
   # for configuring Rise
   - traitlets
   # for tracking and visualizing code execution
