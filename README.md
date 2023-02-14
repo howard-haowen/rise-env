@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/howard-haowen/rise-env/HEAD)
+
 # RISE environment
 This repo hosts files for a RISE environment to be run on Binder.
 
