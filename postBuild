@@ -1,15 +1,29 @@
 #!/bin/bash
 
 set -ex
-# download neovim appimage
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x nvim.appimage
-./nvim.appimage --appimage-extract
-# configure neovim with default AstroNvim settings 
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-# configure neovim with my custom settings 
-git clone https://github.com/howard-haowen/astronvim_config ~/.config/nvim/lua/user
-# set an alias for the neovim binary
-alias nvim='./squashfs-root/AppRun'
-# run the following to install neovim plugins after the image is built
-# ./squashfs-root/AppRun +PackerSync
+
+### cheat.sh ###
+## create the file cht.sh in the home directory 
+## Note: Binder does not allow users to revise files in the PATH.
+curl https://cht.sh/:cht.sh > ~/cht.sh
+
+## make cht.sh executable
+chmod +x ~/cht.sh
+
+## start using cht.sh to look up code snippets
+# ~/cht.sh python order a dictionary by keys
+
+### Neovim ###
+## download neovim appimage
+#curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+#chmod u+x nvim.appimage
+#./nvim.appimage --appimage-extract
+
+## configure neovim with default AstroNvim settings 
+#git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+
+## configure neovim with my custom settings 
+#git clone https://github.com/howard-haowen/astronvim_config ~/.config/nvim/lua/user
+
+## run the neovim binary
+#./squashfs-root/AppRun
