@@ -7,7 +7,9 @@ dependencies:
   ### default packages
   #- python=3.7
   #- nodejs=16
-  #- pip
+  - pip
+    # python package to read and write CLDF datasets
+    - pycldf
   #- ipywidgets==8.0.2
   #- jupyter-offlinenotebook==0.2.2
   #- jupyter-resource-usage==0.6.3
@@ -18,11 +20,11 @@ dependencies:
   
   ### custom packages
   # for wrangling tabular data
-  # - pandas
+  - pandas
   # for pulling content from a content repo
   - nbgitpuller
   # for presenting Notebook as real.js slides
-  # - rise
+  - rise
   # for configuring Rise
   - traitlets
   # for tracking and visualizing code execution
@@ -36,4 +38,6 @@ dependencies:
   # for managing pip environments
   # - pipenv
   # for managing git repos in TUI 
-  - lazygit
+  # - lazygit
+  # for wrangling tabular data in the terminal
+  - visidata
