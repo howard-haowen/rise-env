@@ -33,9 +33,11 @@ dependencies:
   - ranger-fm
   # for the friendly interactive shell, i.e., fish
   - fish-shell
+  # terminal multiplexer, much like desktop environment for TUI
+  - tmux
   # for managing pip environments
   # - pipenv
   # for managing git repos in TUI 
   # - lazygit
   # for wrangling tabular data in the terminal
-  - visidata
+  # - visidata
